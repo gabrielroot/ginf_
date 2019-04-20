@@ -41,10 +41,11 @@
                         <table>
                             <tr><input name='texto' class="form-control my-sm-0" type="search" style="width:54%;margin-top:-30px;" placeholder="Procurar" aria-label="Pesquisar" required></tr>
                             <tr><button class="btn  btn-success  my-2 my-sm-0" style="width:50px;margin-top:-30px;" type="submit">OK</button></tr>
-                            <?php 
+                            <?php
+                                echo $_SESSION['senha'];
                                 $url = $_SERVER['REQUEST_URI'];
                                 $url = str_replace("ginf/user/login/", "", $_SERVER["REQUEST_URI"]);
-                                if($url != '/index.php')
+                                if($url != '/index.php' and (!isset ($_SESSION['login']) == true) and (!isset ($_SESSION['senha']) == true))
                                     echo "<tr><a href='/ginf/user/login/index.php' class='btn'><p class='login'><b>ENTRAR</b></p></a></tr>";
                             ?>
                         </table>

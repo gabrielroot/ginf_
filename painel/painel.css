@@ -6,9 +6,20 @@
 
 .sidebar
 {
-    background-image:url(/ginf/imagens/fundo\ barra\ lateral.png);
     height: 1000px;
+    z-index: -2;
 }
+
+.float
+{
+    position: fixed;
+    width: 17%;
+    height: 102%;
+    margin-top: -100px;
+    z-index: -1;
+    background-image:url(/ginf/imagens/fundo\ barra\ lateral.png);
+}
+
 h1
 {
     color: white;

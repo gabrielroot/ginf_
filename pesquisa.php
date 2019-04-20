@@ -10,8 +10,8 @@
 
 <?php
     $texto=$_POST['texto'];
-    echo "<h1>$texto</h1>";
-    $sql=mysqli_query($conn,"SELECT * FROM noticias WHERE (texto LIKE '%$texto%') or (titulo LIKE '%$texto%') or (nome LIKE '%$texto%') or (curso LIKE '%$texto%') or (data LIKE '%$texto%') ORDER BY data DESC");
+    echo "<h1>Resultados de \"".$texto."\"</h1>";
+    $sql=mysqli_query($conn,"SELECT * FROM noticias WHERE ((texto LIKE '%$texto%') or (titulo LIKE '%$texto%') or (nome LIKE '%$texto%') or (curso LIKE '%$texto%') or (data LIKE '%$texto%')) and (arquivar=0) ORDER BY data DESC");
     echo "<nav class='container'>";
         while ($exibe = mysqli_fetch_assoc($sql) )
         { // Obtém os dados da linha atual e avança para o próximo registro

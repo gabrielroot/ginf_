@@ -7,7 +7,11 @@
 <body>
         <div class="row lo">
                 <div class="col-md-2 sidebar">
-                
+                    <div class="row">
+                        <div class="col-md-12 float">
+
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-10 corpo">
                 <div class="row">   
