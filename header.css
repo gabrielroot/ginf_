@@ -1,0 +1,64 @@
+.top
+{
+    background-image:url(imagens/fundo\ menu.png);
+    background-size:cover;
+}
+
+.login
+{
+    color: white;
+    border: 2px solid white;
+    padding: 4px 4px;
+    margin-top: -20px; 
+    /*border-bottom-color: white; 
+    border-bottom-style: solid; 
+    border-bottom-width: 2px;*/
+}
+.login:hover{background-color: rgb(136, 255, 162);transition: all 0.3s;color:black;}
+
+.img
+{
+    background-image: url(/ginf/imagens/var/www/html/ginf/imagens/logo.png);
+}
+
+.dropdown
+{
+    position: relative;
+}
+
+.lista
+{
+    text-align: center;
+}
+
+.lista_top li
+{
+    color:white;
+    background-image:linear-gradient(to top, rgba(255, 255, 255, 0.541), #209727 70%);
+    border-bottom-color: white; 
+    border-bottom-style: solid; 
+    border-bottom-width: 2px; 
+}
+.menuu
+{
+    background-color:rgb(5, 66, 13);
+}
+h3
+{
+    text-align:center;
+    color:white;
+}
+h3:hover{color:rgb(53, 161, 89);transition:all 0.4s;}
+
+.menu{display: none;text-align: right;}
+@media (max-width: 1000px) {
+    .menu{display: block;}
+    .pesq2{display: none;}
+    .lista{display: none;}
+  }
+
+hr
+{
+    height: 2px;
+    background-color: rgb(241, 156, 45)
+}

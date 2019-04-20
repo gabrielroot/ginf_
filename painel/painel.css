@@ -1,0 +1,54 @@
+.back
+{
+    height: 1002px;
+    background-color: blueviolet;
+}
+
+.sidebar
+{
+    background-image:url(/ginf/imagens/fundo\ barra\ lateral.png);
+    height: 1000px;
+}
+h1
+{
+    color: white;
+    margin-top:20px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.623) 30%, white)
+}
+
+.blocosx
+{
+    color: white;
+    background-color: rgb(8, 151, 73);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.562);
+    margin-top: 25px;
+    padding: 4% 5%;
+    border-radius:10px;
+}
+
+.blocosy
+{
+    background-color: rgb(193, 255, 221);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.562);
+    margin-top: 25px;
+    padding: 4% 5%;
+    border-radius:10px;
+}
+.titulo
+{
+    text-align:center;
+}
+.nome
+{
+    margin-top:10px;
+}
+
+.txt
+{
+    text-align:justify;
+}
+
+.blocos h2
+{
+    text-align: center;
+}

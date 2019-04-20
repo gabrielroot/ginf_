@@ -1,0 +1,33 @@
+body
+{
+    background-image: url(../../imagens/fundo\ login.png);
+    background-size:cover;
+}
+.container
+{
+    width: 80%;
+}
+
+.align-midle
+{
+    margin-top: 100px;
+    background-color:rgb(9, 95, 74);
+    padding: 20px 20px;
+    background-color: rgba(35, 180, 91, 0.466)
+}
+
+.form-group
+{
+
+
+}
+
+label
+{
+    color:white;
+}
+
+small
+{
+    color:white;
+}
