@@ -1,8 +1,8 @@
 <?php
-    $server = 'localhost';
-    $user   = 'gabriel';
-    $pass   = '123';
-    $db     = 'ginf';
+    $server = '192.168.160.21';
+    $user   = 'murilo';
+    $pass   = 'maradona';
+    $db     = 'projeto_whatsapp';
 
     $conn = mysqli_connect($server,$user,$pass,$db);
 
