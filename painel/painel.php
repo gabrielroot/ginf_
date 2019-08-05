@@ -17,6 +17,11 @@
                 <div class="row">   
                     <div class="col-sm-10 back_news">
                         <h1><b>BEM VINDO(A) DE VOLTA, <?php echo strtoupper($_SESSION['login'])?>!!<b></h1>
+                        <div class="add">
+                            <form method="post" action="/ginf/painel/form_cadastra.php">
+                                <input class='btn btn-primary' type='submit' value="Nova Publicação">
+                            </form>              
+                        </div>
                         <?php
                             include ('../conection/conn.php');
                             $sql = mysqli_query($conn,"SELECT * from noticias ORDER BY data DESC");
