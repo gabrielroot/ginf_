@@ -1,12 +1,12 @@
 <?php
-    $server = '192.168.160.21';
-    $user   = 'murilo';
-    $pass   = 'maradona';
-    $db     = 'projeto_whatsapp';
+    $server = 'localhost';
+    $user   = 'gabriel';
+    $pass   = '123';
+    $db     = 'ginf';
 
     $conn = mysqli_connect($server,$user,$pass,$db);
 
-    if(! $conn ) { //ATIVAR SÓ PARA DEBUGAR A CONEXÃO
+    if(! $conn ) { //ATIVAR S脫 PARA DEBUGAR A CONEX脙O
            die('Could not connect: ' . mysql_error());
         }
 
